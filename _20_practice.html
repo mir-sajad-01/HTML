@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <caption>Student Information</caption>
+    <table border="">
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+        <tr>
+            <td>A</td>
+            <td>Delhi</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+    <hr>
+    <hr>
+    <form action = "/server">
+        <div>
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username">
+        </div><br>
+        <div>
+            <label for="sex">Sex :</label>
+            <input type="radio" id="sex" name="sex">
+            <label for="male">Male</label>
+            <input type="radio" id="sex" name="sex">
+            <label for="female">Female</label><br><br>
+        </div>
+
+        <div>
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option>Select an option </option>
+                <option value="India">India</option>
+                <option value="Pakistan">Pakistan</option>
+            </select><br><br>
+        </div>
+        <div>
+            <label for = "Message" >Message:</label><br>
+            <textarea id = "Message" name = "mes" rows = "5"></textarea><br><br>
+        </div>
+        <div>
+            <input type = "checkbox" name = "check" id = "checkage">
+            <label for = "checkage">Subscribe?</label>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+
+    </form>
+    <hr>
+    <hr>
+    
+</body>
+
+</html>
